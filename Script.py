@@ -250,20 +250,18 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     CAPTION = """ 📂 <i><a href="https://telegram.me/HP_MOVIES_WORLD">{file_name}</a></i>\n\n"""
 
     IMDB_TEMPLATE_TXT = """
-<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
+    
+    
+<b>🧿 ᴛɪᴛʟᴇ : </b>{title}
 
-🧿 {title}</b>
+<b>🎭 ɢᴇɴʀᴇꜱ : </b>{genres}
 
-<b>⭐ {rating} | ⏰ {runtime} Minutes
-📆 {release_date}
-🕵️ {director}
+<b>📆 ʏᴇᴀʀ : </b>{year}
+<b>🌟 ʀᴀᴛɪɴɢ : </b>{rating} / 10
+<b>📀 ʀᴜɴᴛɪᴍᴇ : </b>{runtime} Minutes
 
-●  {languages}
-●  {genres}
+<b>☀️ ʟᴀɴɢᴜᴀɢᴇ :</b>
 
-📖 {plot}
-
-💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}</b>
 """
     
 
