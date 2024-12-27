@@ -126,7 +126,7 @@ HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
     URL = "https://{}/".format(FQDN)
 else:
-    URL = "http://{}/".format(FQDN)
+    URL = "https://{}/".format(FQDN)
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002116913273'))
